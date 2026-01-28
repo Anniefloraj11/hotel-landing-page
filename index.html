@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/eed1500bd8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Hotel</title>
+</head>
+<body>
+    <section class="hero-section">
+        <div class="hero-text">
+            <h1>Welcome to Paradise Hotel</h1>
+            <p style="margin: 10px 0px;">
+                We provide rooms at a very good price along with great amenities to 
+                make your living experience awesome</p>
+            <button class="book-button">Book</button>
+        </div>
+    </section>
+    <h1 class="about-heading">About Us</h1>
+    <section class="about-section">
+        <div class="about-us">
+            <p>Find What You Need At Booking.Com, The Biggest Travel Site In The World. 
+                Choose From a Wide Range of Properties Which Booking.com Offers. 
+                Search Now! </p>
+            <br>
+            <p>
+                How we work
+                Sustainability
+                Press centre
+                Careers
+                Investor relations
+                Corporate contact</p>
+                <div class="know-more-container">
+            <button class="know-button">Know more...</button>
+        </div>
+    </div>
+        <div class="amenities">
+            <h3>Amenities we have: </h3>
+            <ul>
+                <li><i class="fa-solid fa-globe"></i> High Speed Internet</li>
+                <li><i class="fa-solid fa-bacon"></i> Breakfast</li>
+                <li><i class="fa-solid fa-person-swimming"></i> Swimming pool</li>
+                <li><i class="fa-solid fa-dumbbell"></i> Gym</li>
+                <li><i class="fa-solid fa-mug-saucer"></i> Cafeteria</li>
+            </ul>
+        </div>
+    </section>
+    <h1 class="room-heading">Room Types</h1>
+    <section class="room-type-container">
+        <div class="room-images">
+            <img src="hotproj.avif" alt="room-image">
+        </div>
+        <div class="room-list">
+            <h4>Single Occupancy Room</h4>
+            <p>A Single Occupancy Room (SRO) is a type of affordable housing where each tenant has their own private room 
+                but shares communal facilities like bathrooms and kitchens.</p>
+            <h4>Family Room</h4>
+            <p>A Family Room is a type of accommodation that is designed to comfortably house multiple 
+                members of a family.</p>
+            <h4>Duplex Room</h4>
+            <p>A Duplex Room is a type of hotel room or accommodation that spans two levels. 
+                This setup provides a unique living experience with additional space and a feeling of privacy similar to an apartment or townhouse.</p>
+        </div>
+    </section>
+    <div class="help-button">
+        <h4>Need help?</h4>
+    </div>
+    <h2 class="form-heading">Fill the Form for Booking the Room</h2>
+    <section class="form-container">
+        <form>
+            <div class="form-group">
+                <label for="name">Your Full Name</label><br>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Id</label><br>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="booking-date">Date of booking</label><br>
+                <input type="date" id="booking-date" required>
+            </div>
+            <div class="form-group">
+                <label for="room-type">Select Room Type</label><br>
+                <select name="room-type" id="room-type" required>
+                    <option value="" selected disabled>Select...</option>
+                    <option value="single room">Single Room</option>
+                    <option value="family room">Family Room</option>
+                    <option value="duplex room">Duplex Room</option>
+                </select>
+            </div>  
+            <input type="submit" value="Book">
+        </form>
+    </section>
+</body>
+</html>
