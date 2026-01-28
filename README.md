@@ -1,20 +1,41 @@
 # Hotel Landing Page
 
-## Description
+A responsive hotel landing page built using **HTML and CSS**, designed to showcase hotel amenities, visuals, and a clean user interface.
 
-A responsive hotel landing page built using HTML and CSS showcasing a modern UI design.
+## 🌐 Live Demo
 
-## Features
+👉 https://anniefloraj11.github.io/hotel-landing-page/
 
-- Clean landing page layout
-- Image gallery
-- Responsive design
+## 📂 Source Code
 
-## Tech Stack
+👉 https://github.com/Anniefloraj11/hotel-landing-page
+
+## ✨ Features
+
+- Clean and modern UI design
+- Responsive layout for different screen sizes
+- Image-based hotel showcase
+- Simple and readable code structure
+
+## 🛠️ Technologies Used
 
 - HTML
 - CSS
+- Git & GitHub
+- GitHub Pages (for deployment)
 
-## How to Run
+## 🎯 Purpose of the Project
 
-Open index.html in any web browser.
+This project was built to:
+
+- Practice frontend web development fundamentals
+- Understand responsive UI design
+- Learn version control using Git and GitHub
+- Deploy a static website using GitHub Pages
+
+## 📌 How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Anniefloraj11/hotel-landing-page.git
+   ```
